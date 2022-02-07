@@ -10,7 +10,7 @@ for (let i=0; i<9 ;i++){
 }
 console.log(suma)
 
-//con fot of
+//con for of
 
 const numeros = [6, 7, 2, 9, 3, 4, 5, 8, 2];
 
