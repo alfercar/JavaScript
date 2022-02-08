@@ -12,4 +12,5 @@ class Mates {
 
 const pequeño = new Mates (2);
 const mediano= new Mates (5);
-const grande = new Mates (10);
+const ladogrande = 10
+const grande = new Mates (ladogrande); 
