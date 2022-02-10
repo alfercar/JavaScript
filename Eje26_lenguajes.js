@@ -1,10 +1,17 @@
-// let unomas = document.createElement ("JavaScript")
+var botonlenguaje = document.getElementById("boton")
 
-var boton = document.getElementById("lista")
+var lista = document.getElementById("lista")
 
 boton.addEventListener("click", creacion)
 
 function creacion (){
-    lista.createTextNode ("JavaScript")
+    const crearLi = document.createElement ("li")
+    const contenido = document.createTextNode ("JavaScript")
+    crearLi.appendChild(contenido);
+    lista.appendChild(crearLi)
     
 }
+
+
+
+// Para hacer que apa
