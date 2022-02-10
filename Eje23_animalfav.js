@@ -1,6 +1,7 @@
 let animal = prompt ("Adivina mi animal favorito crack (en minusculas)");
 let element = document.getElementById ("resultado");
 let fotillo = document.getElementById ("foto")
+let fotillo2 = document.getElementById ("foto2")
 
 if (animal == "lobo"){
     element.innerHTML = "Como me conoces crack"
@@ -12,6 +13,7 @@ if (animal == "lobo"){
 
 else{
     element.innerHTML = "Hasta luego"
-    element.style.color = "red"  
+    element.style.color = "red"
+    fotillo2.classList.remove('oculto2')  
     
 }
