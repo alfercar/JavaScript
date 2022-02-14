@@ -2,19 +2,23 @@
 <html>
     <head>
     <title>Ejercicios JavaScript</title>
-    <link rel="stylesheet" href="Eje27_MostrarOcultar.css">
        
     </head>
     <body>
         
         <h3>Selecciona una ciudad</h3>
-        <select name="provincia">
-            <option value="Madrid"> Madriles  </option>
-            <option value="Cadiz"> Cadiz  </option>
+        <select id="select" onchange="cambio()">
+            <option value=""></option>
+            <option value="Madrid"> Los Madriles  </option>
+            <option value="Toledo"> Toletvm  </option>
+            <option value="Cañaveral"> Cañaveralation </option>
+            <option value="SADG"> San Agus city  </option>
         </select>
 
+        <p id="frase"></p>
+
         <script 
-        src="Eje28_select.html">
+        src="Eje28_select.js">
         </script>
 
         
